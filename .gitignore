@@ -1,0 +1,32 @@
+# Generated output
+exports/*
+!exports/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Private local configuration
+configs/local/*
+!configs/local/.gitkeep
+*.local.psd1
+*.local.json
+*.local.yaml
+*.local.yml
+
+# PowerShell generated files
+*.clixml
+*.log
+TestResults/
+coverage/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+~$*
