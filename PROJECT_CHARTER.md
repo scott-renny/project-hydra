@@ -1,80 +1,45 @@
-# Project Hydra Charter
+# Project Hydra Charter — Closed
 
-## Purpose
+## Final disposition
 
-Project Hydra is a dedicated multi-monitor workstation automation project for the main PC. Version 1.0 will establish a repeatable dual-monitor working environment on the existing Windows 10 system.
+Project Hydra is discontinued as a standalone project. Its planned multi-monitor workspace responsibilities have been consolidated into [Project Cerberus](https://github.com/scott-renny/project-cerberus-build).
 
-Project Hermes remains a separate laptop project. Hydra may share engineering standards and visual direction with Hermes, but it does not replace, extend, or configure Hermes.
+## Original purpose
 
-## Problem Statement
+Hydra was chartered to create repeatable dual-monitor workspace automation for the existing Windows 10 main PC using PowerShell.
 
-The current main-PC workspace depends on manually opening, positioning, and restoring applications across two monitors. That process is inconsistent and difficult to reproduce after restarts, display changes, or application updates.
+## Why the charter closed
 
-Hydra will replace that manual process with documented configuration, automation, validation, and recovery procedures.
+Before Hydra reached implementation, the workstation architecture changed:
 
-## v1.0 Goals
+1. Cerberus expanded from a hardware build into a complete workstation-platform project.
+2. Fedora KDE Plasma replaced Windows as the locked Cerberus operating-system direction.
+3. The display target expanded from two monitors to six across two GPUs.
+4. Desktop workflows became inseparable from Fedora deployment, KDE configuration, security hardening, automation, and COC integration.
+5. Maintaining Hydra separately would duplicate ownership and create conflicting platform assumptions.
 
-- Inventory the existing Windows 10 main PC and both monitors.
-- Define stable monitor identities and coordinate handling.
-- Create reusable workspace profiles.
-- Launch approved applications for a selected workspace.
-- Position and size windows on the intended display.
-- Restore workspaces after normal Windows restarts.
-- Separate reusable automation from machine-specific configuration.
-- Validate results and preserve useful test evidence.
-- Document recovery procedures.
+## Transferred ownership
 
-## Scope
+Cerberus now owns:
 
-### Included
+- multi-monitor inventory and topology;
+- KDE Plasma workspace and activity design;
+- application launching and placement;
+- COC, development, research, and streaming workspace definitions;
+- hotkeys, launchers, restoration, validation, and recovery;
+- version-controlled Fedora-native desktop configuration.
 
-- Existing Windows 10 main PC
-- Two connected monitors
-- PowerShell 7+ automation
-- Monitor discovery and identification
-- Application launch coordination
-- Window placement and sizing
-- Workspace profile selection and restoration
-- Local configuration backup
-- Documentation, testing, and recovery
+## Project boundaries
 
-### Excluded
+Project Hermes remains separate and continues to serve the Windows 11 laptop. Hydra does not replace or absorb Hermes.
 
-- Project Hermes laptop configuration
-- Streaming and OBS integration
-- Gaming profiles
-- Six-monitor support
-- Dual-GPU configuration
-- Project Cerberus hardware deployment
-- SOC or hardware-monitoring dashboards
-- Windows edition upgrades
+## Closure criteria
 
-## Deliverables
+The Hydra charter is closed because:
 
-- System and display inventory
-- Requirements and architecture documentation
-- Version-controlled workspace definitions
-- Monitor and window-management automation
-- Validation tests
-- Setup, usage, and recovery instructions
-- Build journal and changelog
+- no production Hydra automation was released;
+- no code migration is required;
+- the successor project and transferred scope are documented;
+- future implementation belongs exclusively to Cerberus.
 
-## Constraints
-
-- The exact Windows 10 edition is not assumed until verified.
-- Initial work must use existing hardware.
-- Machine-specific and sensitive information must not be committed.
-- Automation must avoid destructive or irreversible changes.
-- Display coordinates and application paths must remain configurable.
-
-## Success Criteria
-
-Hydra v1.0 is complete when:
-
-1. Both displays are identified consistently.
-2. At least two workspace profiles launch successfully.
-3. Managed windows appear on the intended monitor at the intended position and size.
-4. A workspace can be restored following a normal restart.
-5. Repeated execution does not create duplicate or conflicting state.
-6. Setup, validation, and recovery are documented.
-7. No credentials, private network details, or sensitive machine data are present in the repository.
+This repository remains available only as a historical decision record.
