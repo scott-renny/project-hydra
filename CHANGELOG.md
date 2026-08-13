@@ -1,20 +1,17 @@
 # Changelog
 
-All notable changes to Project Hydra will be documented in this file.
-
-The format follows the principles of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Project Hydra uses semantic versioning for releases.
+All notable changes to Project Hydra are documented here.
 
 ## [Unreleased]
 
-### Added
+### Changed
 
-- Initial Project Hydra repository.
-- v1.0 README defining the Windows 10 dual-monitor target.
-- Project charter, requirements, architecture, roadmap, and engineering standard.
-- Security and contribution guidance.
-- System inventory and workspace planning templates.
-- Initial validation checklist.
+- Marked Project Hydra as discontinued before implementation.
+- Consolidated Hydra's planned workspace and multi-monitor responsibilities into Project Cerberus.
+- Replaced the planned Hydra v1.0 roadmap with a closure record.
+- Clarified that Project Hermes remains separate for the Windows 11 laptop.
+- Redirected future desktop and workflow work to the Cerberus repository.
 
-## [1.0.0] - Unreleased
+## Historical planning baseline
 
-Project Hydra v1.0 will establish repeatable dual-monitor workspace automation on the existing Windows 10 main PC.
+Hydra was originally planned as PowerShell-based Windows 10 dual-monitor workspace automation for the existing main PC. No Hydra v1.0 implementation was released or tagged.
