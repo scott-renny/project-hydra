@@ -16,6 +16,8 @@
 
 **Project Hydra is no longer an active standalone project.**
 
+This repository is preserved as a historical design record and is intended to be archived read-only. Active workstation engineering continues in [Project Cerberus](https://github.com/scott-renny/project-cerberus-build).
+
 Hydra was originally planned as Windows 10 dual-monitor workspace automation for the existing main PC. The project did not reach an implementation release before the workstation strategy changed.
 
 Project Cerberus subsequently evolved from a hardware build into a complete Fedora KDE-based Linux engineering workstation and Cyber Operations Center command platform. Hydra's intended responsibilities now belong inside Cerberus, where desktop design must be developed together with the operating system, six-display topology, dual-GPU configuration, security controls, automation, and infrastructure-management workflows.
