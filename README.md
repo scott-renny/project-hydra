@@ -20,7 +20,7 @@ This repository is preserved as a historical design record and is intended to be
 
 Hydra was originally planned as Windows 10 dual-monitor workspace automation for the existing main PC. The project did not reach an implementation release before the workstation strategy changed.
 
-Project Cerberus subsequently evolved from a hardware build into a complete Fedora KDE-based Linux engineering workstation and Cyber Operations Center command platform. Hydra's intended responsibilities now belong inside Cerberus, where desktop design must be developed together with the operating system, six-display topology, dual-GPU configuration, security controls, automation, and infrastructure-management workflows.
+Project Cerberus subsequently evolved from a hardware build into a complete Linux Mint Cinnamon-based Linux engineering workstation and Cyber Operations Center command platform. Hydra's intended responsibilities now belong inside Cerberus, where desktop design must be developed together with the operating system, six-display topology, dual-GPU configuration, security controls, automation, and infrastructure-management workflows.
 
 Active work continues in [Project Cerberus](https://github.com/scott-renny/project-cerberus-build).
 
@@ -28,16 +28,16 @@ Active work continues in [Project Cerberus](https://github.com/scott-renny/proje
 
 The following planned Hydra responsibilities are now part of Cerberus's **Desktop & Workflow Environment** workstream:
 
-- Six-display KDE Plasma workspace design
+- Six-display Cinnamon workspace design
 - Monitor roles, arrangement, scaling, and orientation
 - Activity- and workspace-based application layouts
 - COC dashboard placement
 - Development, research, infrastructure, and streaming workspaces
 - Launchers, shortcuts, hotkeys, and terminal workflows
 - Workspace restoration and display-change recovery
-- Fedora-native configuration, validation, and documentation
+- Linux Mint-native configuration, validation, and documentation
 
-Hydra's original Windows 10 and PowerShell implementation assumptions have been retired. Cerberus will use Fedora-appropriate mechanisms such as KDE configuration, shell tooling, Ansible, and version-controlled configuration.
+Hydra's original Windows 10 and PowerShell implementation assumptions have been retired. Cerberus will use Linux Mint-appropriate mechanisms such as Cinnamon configuration, shell tooling, Ansible, and version-controlled configuration.
 
 ## Relationship to Project Hermes
 
@@ -49,7 +49,7 @@ Hydra remains public as an architecture and decision-history record. It should n
 
 - **Original target:** existing Windows 10 main PC with two monitors
 - **Final status:** discontinued before implementation
-- **Reason:** scope consolidated into the broader Fedora-based Cerberus platform
+- **Reason:** scope consolidated into the broader Linux Mint Cinnamon-based Cerberus platform
 - **Replacement:** Cerberus Desktop & Workflow Environment
 - **Code migration:** none; Hydra had not reached implementation
 

@@ -25,7 +25,7 @@ The following items will not be implemented in this repository:
 - Hydra v1.0 testing and release
 - A standalone Hydra-to-Cerberus migration
 
-Their Fedora/KDE equivalents will be designed and tracked in [Project Cerberus](https://github.com/scott-renny/project-cerberus-build).
+Their Linux Mint Cinnamon equivalents will be designed and tracked in [Project Cerberus](https://github.com/scott-renny/project-cerberus-build).
 
 ## Final state
 

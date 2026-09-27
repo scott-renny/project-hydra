@@ -13,9 +13,9 @@ Hydra was chartered to create repeatable dual-monitor workspace automation for t
 Before Hydra reached implementation, the workstation architecture changed:
 
 1. Cerberus expanded from a hardware build into a complete workstation-platform project.
-2. Fedora KDE Plasma replaced Windows as the locked Cerberus operating-system direction.
+2. Linux Mint Cinnamon replaced Windows as the locked Cerberus operating-system direction.
 3. The display target expanded from two monitors to six across two GPUs.
-4. Desktop workflows became inseparable from Fedora deployment, KDE configuration, security hardening, automation, and COC integration.
+4. Desktop workflows became inseparable from Linux Mint deployment, Cinnamon configuration, security hardening, automation, and COC integration.
 5. Maintaining Hydra separately would duplicate ownership and create conflicting platform assumptions.
 
 ## Transferred ownership
@@ -23,11 +23,11 @@ Before Hydra reached implementation, the workstation architecture changed:
 Cerberus now owns:
 
 - multi-monitor inventory and topology;
-- KDE Plasma workspace and activity design;
+- Cinnamon workspace and activity design;
 - application launching and placement;
 - COC, development, research, and streaming workspace definitions;
 - hotkeys, launchers, restoration, validation, and recovery;
-- version-controlled Fedora-native desktop configuration.
+- version-controlled Linux Mint-native desktop configuration.
 
 ## Project boundaries
 
